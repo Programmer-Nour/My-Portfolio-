@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="HomePage" id="Home">
+        <div class="NavBar">
+            <div class="Container0">
+                <div class="NavLogo">
+                    <h1><span><i class="fa-solid fa-code"></i></span> Nour Hamdy <span>.</span></h1>
+                </div>
+                <div class="NavLinks">
+                    <input type="checkbox" class="check" id="menu">
+                    <label class="bars" for="menu"><i class="fa-solid fa-bars"></i></label>
+                    <ul>
+                        <li><a href="#Home" class="Active">Home</a></li>
+                        <li><a href="#about" class="Active">About Me</a></li>
+                        <li><a href="#skills" class="Active">Skills</a></li>
+                        <li><a href="#projects" class="Active">Projects</a></li>
+                        <li><a href="#contact" class="Active">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Container1">
+            <div class="HomeContent">
+                <div class="Content">
+                    <h2><span>.</span>FRONTEND DEVELOPER</h2>
+                    <h1>Nour Hamdy</h1>
+                    <p>Building Modern Web Applications.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                    <div class="Links">
+                        <a href="#projects">View Projects</a>
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="HomePhoto">
+                    <img src="./Images/5918186551747742925_121.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-----------------------------------------------------About Me----------------------------------------------------------------->
+
+    <div class="AboutMe" id="about">
+        <div class="Title">
+            <h3><span>.</span>About Me</h3>
+        </div>
+        <div class="Container2">
+            <div class="AboutContent1">
+                <h2>I'm <span>Nour Hamdy</span>—
+                    Frontend Developer</h2>
+                <p class="first">I’m a Frontend Developer with a foundation in Civil Engineering. I build fast,
+                    accessible, and well-structured web experiences. My mission is to solve complex problems with
+                    elegant, high-performance code.</p>
+                <p class="second"><span>.</span>Certified Diploma in Frontend Development from Eduzah Company </p>
+            </div>
+            <div class="AboutContent2">
+                <h2>Quick Overview</h2>
+                <p>Today,I specialize in creating high-performance web applications using modern frontend practices.
+                    I’m obsessed with clean code,accessibility,and bridge the gap between complex logic and seamless
+                    user experience.</p>
+                <a href="#projects">View Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!---------------------------------------------------My Skills------------------------------------------------------------------>
+
+    <div class="MySkills" id="skills">
+        <div class="Container1">
+            <div class="SkillsTitle">
+                <h2>My Skills</h2>
+            </div>
+            <div class="SkillsContent">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!--------------------------------------------------------My Projects----------------------------------------------------------->
+
+    <div class="MyProjects" id="projects">
+        <div class="ProjectsTitle">
+            <h2>My Projects</h2>
+        </div>
+        <div class="Container3">
+            <div class="ProjectsContent1">
+                <img src="./Images/Screenshot 2026-03-30 171718.png">
+                <h3>Dev Folio</h3>
+                <p><i class="fa-solid fa-link"></i>Live Demo</p>
+            </div>
+            <div class="ProjectsContent2">
+                <img src="./Images/Screenshot 2026-03-30 172024.png">
+                <h3>Bakery</h3>
+                <p><i class="fa-solid fa-link"></i>Live Demo</p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------------------------------------Contact Me------------------------------------------------------------->
+
+    <div class="ContactMe" id="contact">
+        <div class="ContactTitle">
+            <h2><span>.</span>Contact Me</h2>
+        </div>
+        <div class="Container2">
+            <div class="ContactInformation">
+                <h3>Let’s build something great.</h3>
+                <ul>
+                    <li>EMAIL:
+                        nourhamdy.06.15@gmail.com
+                    </li>
+                    <li>PHONE:
+                        +201118597969
+                    </li>
+                    <li>LOCATION:
+                        Sohag, Egypt
+                    </li>
+                </ul>
+            </div>
+            <div class="ContactForm">
+                <form>
+                    <label for="Name">Your Name :</label>
+                    <input id="Name" type="text" name="Name">
+                    <label for="Email">Your Email :</label>
+                    <input id="Email" type="email" name="email">
+                    <label for="Message">Message :</label>
+                    <textarea id="Message" name="message" rows="10" cols="5"></textarea>
+                    <button type="submit" class="button">Send Message</button>
+                    <button type="button" class="link"><a href="https://mail.google.com/mail/u/0/?ogbl"
+                            target="_blank">Hire Me via
+                            Email</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-- ------------------------------------------------------Footer--------------------------------------------------------------->
+
+    <footer class="footer">
+        <div class="Container1">
+            <p>© 2026 Nour Hamdy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+
+</body>
+
+</html>
