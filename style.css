@@ -182,6 +182,7 @@ body {
     margin-top: 7px;
     font-size: 55px;
     font-weight: bolder;
+    border: transparent 2px solid;
 }
 
 .Content h1:hover {
@@ -193,6 +194,7 @@ body {
     margin-top: 5px;
     font-size: 18px;
     font-weight: 600;
+    border: transparent 2px solid;
 }
 
 .Content p:hover {
@@ -818,6 +820,10 @@ body {
     /*---------------------------------------------------------------------------------------------------------------------*/
     /*-------------------------------------------------------Home Page----------------------------------------------------*/
 
+     .NavLogo {
+        margin-left: -10px;
+    }
+
     .NavLinks ul li a {
         font-size: 18px;
     }
@@ -898,7 +904,6 @@ body {
     }
 
     .NavLogo {
-        margin-left: -5px;
         font-size: 12px;
     }
 
@@ -1132,19 +1137,24 @@ body {
 
 /*-------------------------------------------------------Phone Screen--------------------------------------------------*/
 
-@media screen and (min-width: 400px) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
     /*---------------------------------------------------------------------------------------------------------------------*/
 
     /*-------------------------------------------------------Home Page----------------------------------------------------*/
 
     .Container0 {
-        width: 95%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .NavBar {
+        width: 100%
     }
 
     .NavLogo {
         font-size: 16px;
-
+        margin-left: 15px;
     }
 
     .NavLinks ul {
@@ -1196,7 +1206,7 @@ body {
     }
 
     .HomeContent {
-        width:100%;
+        width: 100%;
         position: relative;
         left: 12%;
     }
