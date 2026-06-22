@@ -518,7 +518,6 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-
 .ProjectsTitle::after {
     content: "";
     border-bottom: 1px solid #93C5FD;
@@ -564,21 +563,25 @@ body {
     height: 70%;
     margin-top: 20px;
     border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.8s ease-in-out;
 }
 
 .ProjectsContent1 h3 {
-    margin-top: 12px;
+    margin-top: 7px;
     color: white;
     font-size: 25px;
     font-weight: lighter;
+    padding-bottom: 10px;
 }
 
 .ProjectsContent1 a {
-    padding-top: 10px;
     color: #93C5FD;
     font-size: 15px;
     padding-bottom: 15px;
+    padding-right: 5px;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 .ProjectsContent1 a i {
@@ -608,21 +611,36 @@ body {
     height: 70%;
     border-radius: 20px;
     margin-top: 20px;
+    transition: all 0.8s ease-in-out;
+}
+
+.ProjectsContent1:hover img,
+.ProjectsContent2:hover img {
+    transform: scale(1.06);
+    transition: all 0.8s ease-in-out;
 }
 
 .ProjectsContent2 h3 {
-    margin-top: 12px;
+    margin-top: 7px;
     color: white;
     font-size: 25px;
     font-weight: lighter;
+    padding-bottom: 10px;
 }
 
 .ProjectsContent2 a {
     color: #93C5FD;
-    padding-top: 10px;
     font-size: 15px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.ProjectsContent1 a:hover,
+.ProjectsContent2 a:hover {
+    color: white;
+    transition: all 0.5s ease-in-out;
 }
 
 .ProjectsContent2 a i {
@@ -973,6 +991,80 @@ body {
         font-size: 15px;
     }
 
+    /*---------------------------------------------------------------------------------------------------------------------*/
+
+    /*------------------------------------------------------- My Skills -----------------------------------------------------*/
+
+    .SkillsTitle {
+        font-size: 25px;
+    }
+
+    .SkillsTitle ::after {
+        width: 100px;
+        position: absolute;
+        top: 115%;
+        left: 45%;
+    }
+
+    .SkillsTitle ::before {
+        width: 65px;
+        position: absolute;
+        top: 135%;
+        left: 47%;
+    }
+
+    .SkillsContent ul li {
+        padding: 20px 45px;
+        font-size: 20px;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------------*/
+
+    /*------------------------------------------------------- My Projects -----------------------------------------------------*/
+
+    .ProjectsTitle {
+        font-size: 25px;
+    }
+
+    .ProjectsTitle::after {
+        width: 120px;
+        position: absolute;
+        top: 120%;
+        left: 44.5%;
+    }
+
+    .ProjectsTitle ::before {
+        width: 70px;
+        position: absolute;
+        top: 135%;
+        left: 47%;
+    }
+
+    .ProjectsContent1 {
+        width: 45%;
+        padding-bottom: 15px;
+    }
+
+    .ProjectsContent1 h3 {
+        margin-top: 5px;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .ProjectsContent2 {
+        width: 45%;
+        padding-bottom: 15px;
+    }
+
+    .ProjectsContent2 h3 {
+        margin-top: 5px;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------ Contact Me ---------------------------------------------------*/
+
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1103,104 +1195,84 @@ body {
     /*-------------------------------------------------------My Skills----------------------------------------------------*/
 
     .SkillsTitle {
-        font-size: 25px;
-        margin-bottom: 60px
+        font-size: 20px;
+        margin-bottom: 75px;
     }
 
     .SkillsTitle ::after {
-        width: 95px;
+        width: 80px;
         position: absolute;
         top: 115%;
-        left: 43%;
+        left: 45%;
     }
 
     .SkillsTitle ::before {
-        width: 60px;
+        width: 50px;
         position: absolute;
         top: 135%;
-        left: 45.5%;
+        left: 47%;
     }
 
     .SkillsContent ul li {
-        padding: 20px 40px;
-        font-size: 20px;
-        border-radius: 45px;
+        padding: 15px 35px;
+        font-size: 15px;
     }
 
     /*---------------------------------------------------------------------------------------------------------------------*/
 
     /*-------------------------------------------------------My Projects----------------------------------------------------*/
 
+    .Container3 {
+        gap: 70px;
+    }
+
     .ProjectsTitle {
-        font-size: 25px;
-        font-weight: 500;
-        margin-bottom: 50px;
+        font-size: 20px;
+        margin-bottom: 75px;
     }
 
     .ProjectsTitle::after {
-        width: 140px;
+        width: 110px;
         position: absolute;
-        top: 110%;
-        left: 41%;
+        top: 120%;
+        left: 44%;
     }
 
     .ProjectsTitle ::before {
-        width: 80px;
+        width: 60px;
         position: absolute;
-        top: 125%;
-        left: 45%;
-    }
-
-    .Container3 {
-        gap: 20px;
-    }
-
-    .ProjectsContent2 {
-        width: 65%;
-        border-radius: 35px;
+        top: 135%;
+        left: 47%;
     }
 
     .ProjectsContent1 {
-        width: 65%;
-        border-radius: 35px;
-    }
-
-    .ProjectsContent2 img {
-        width: 95%;
-        height: 60%;
-        border-radius: 20px;
-    }
-
-    .ProjectsContent1 img {
-        width: 95%;
-        height: 60%;
-        border-radius: 20px;
+        width: 50%;
+        padding-bottom: 25px;
     }
 
     .ProjectsContent1 h3 {
-        font-size: 20px;
+        margin-top: 5px;
+        font-size: 18px;
+        padding-bottom: 5px;
     }
 
-    .ProjectsContent1 p {
-        font-size: 15px;
+    .ProjectsContent1 a {
+        font-size: 12px;
+    }
+
+    .ProjectsContent2 {
+        width: 50%;
+        padding-bottom: 25px;
     }
 
     .ProjectsContent2 h3 {
-        font-size: 20px;
+        margin-top: 5px;
+        font-size: 18px;
+        padding-bottom: 5px;
     }
 
-    .ProjectsContent2 p {
-        font-size: 15px;
-    }
-
-    .ProjectsContent2 p i {
-        font-size: 15px;
-        padding-right: 20px;
-    }
-
-    .ProjectsContent1 p i {
-        font-size: 15px;
-        padding-right: 20px;
+    .ProjectsContent2 a {
+        font-size: 12px;
     }
 
     /*---------------------------------------------------------------------------------------------------------------------*/
@@ -1462,21 +1534,32 @@ body {
 
     .SkillsTitle {
         font-size: 20px;
+        margin-bottom: 75px;
     }
 
     .SkillsTitle ::after {
-        width: 85px;
+        width: 80px;
+        position: absolute;
+        left: 43%;
     }
 
     .SkillsTitle ::before {
-        width: 55px;
+        width: 45px;
+        position: absolute;
+        left: 46%;
     }
 
     .SkillsContent ul {
+        list-style: none;
         display: flex;
+        justify-content: space-around;
+        gap: 20px;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 20px 80px;
+    }
+
+    .SkillsContent ul li {
+        padding: 15px 30px;
+        font-size: 15px;
     }
 
     /*---------------------------------------------------------------------------------------------------------------------*/
@@ -1485,14 +1568,21 @@ body {
 
     .ProjectsTitle {
         font-size: 20px;
+        margin-bottom: 50px;
     }
 
     .ProjectsTitle::after {
-        width: 115px;
+        width: 110px;
+        position: absolute;
+        top: 120%;
+        left: 41.5%;
     }
 
     .ProjectsTitle ::before {
-        width: 70px;
+        width: 60px;
+        position: absolute;
+        top: 135%;
+        left: 45.5%;
     }
 
     .Container3 {
@@ -1504,32 +1594,22 @@ body {
 
     .ProjectsContent1 {
         width: 95%;
+        padding-bottom: 15px;
     }
 
     .ProjectsContent1 h3 {
-        font-size: 25px;
+        font-size: 18px;
         margin-top: 5px;
-    }
-
-    .ProjectsContent1 p {
-        margin-top: -5px;
-        margin-bottom: 5px;
-        font-size: 15px;
     }
 
     .ProjectsContent2 {
         width: 95%;
+        padding-bottom: 15px;
     }
 
     .ProjectsContent2 h3 {
-        font-size: 25px;
+        font-size: 18px;
         margin-top: 5px;
-    }
-
-    .ProjectsContent2 p {
-        margin-top: -5px;
-        margin-bottom: 15px;
-        font-size: 15px;
     }
 
     /*---------------------------------------------------------------------------------------------------------------------*/
